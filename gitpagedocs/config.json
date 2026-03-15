@@ -8,7 +8,7 @@
       "es"
     ],
     "HideThemeSelector": true,
-    "ThemeDefault": "nord-dark",
+    "ThemeDefault": "github-dark",
     "ThemeModeDefault": "dark",
     "ActiveNavigation": true,
     "FocusMode": true,
