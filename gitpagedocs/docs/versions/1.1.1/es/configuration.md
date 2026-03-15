@@ -1,6 +1,7 @@
 # Configuracion
 
-La configuracion de runtime esta en `gitpagedocs/config.json`.
+**Version:** 1.1.1
+`nLa configuracion de runtime esta en `gitpagedocs/config.json`.
 
 ## Seccion `site`
 

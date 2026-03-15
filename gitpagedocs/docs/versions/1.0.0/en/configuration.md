@@ -1,6 +1,7 @@
 # Configuration
 
-Runtime configuration lives in `gitpagedocs/config.json`.
+**Version:** 1.0.0
+`nRuntime configuration lives in `gitpagedocs/config.json`.
 
 ## `site` section
 

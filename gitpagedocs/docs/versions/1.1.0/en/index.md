@@ -1,6 +1,7 @@
 # Git Page Docs
 
-Git Page Docs is a multilingual documentation runtime for repositories that ship a `gitpagedocs/` folder.
+**Version:** 1.1.0
+`nGit Page Docs is a multilingual documentation runtime for repositories that ship a `gitpagedocs/` folder.
 
 ## What this project delivers
 

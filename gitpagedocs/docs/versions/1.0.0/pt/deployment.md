@@ -1,6 +1,7 @@
 # Publicacao
 
-Git Page Docs roda como app Next.js com dois alvos: servidor local e GitHub Pages.
+**Version:** 1.0.0
+`nGit Page Docs roda como app Next.js com dois alvos: servidor local e GitHub Pages.
 
 ## Publicacao local
 

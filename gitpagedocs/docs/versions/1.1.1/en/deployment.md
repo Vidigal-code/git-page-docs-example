@@ -1,6 +1,7 @@
 # Deployment
 
-Git Page Docs runs as a Next.js app with two major targets: local server and GitHub Pages.
+**Version:** 1.1.1
+`nGit Page Docs runs as a Next.js app with two major targets: local server and GitHub Pages.
 
 ## Local deployment
 

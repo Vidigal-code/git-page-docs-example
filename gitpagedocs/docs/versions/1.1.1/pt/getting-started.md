@@ -1,6 +1,7 @@
 # Primeiros passos
 
-Este guia leva o projeto do zero ate docs rodando.
+**Version:** 1.1.1
+`nEste guia leva o projeto do zero ate docs rodando.
 
 ## Pre-requisitos
 

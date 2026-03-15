@@ -1,6 +1,7 @@
 # Getting Started
 
-This guide configures the project from zero to running docs.
+**Version:** 1.0.0
+`nThis guide configures the project from zero to running docs.
 
 ## Prerequisites
 

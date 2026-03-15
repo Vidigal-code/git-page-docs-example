@@ -1,6 +1,7 @@
 # FAQ
 
-## Why are remote repositories not opening locally?
+**Version:** 1.0.0
+`n## Why are remote repositories not opening locally?
 
 Check:
 

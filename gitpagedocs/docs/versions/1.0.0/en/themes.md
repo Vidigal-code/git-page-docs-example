@@ -1,6 +1,7 @@
 # Themes and Layouts
 
-Themes are JSON templates mapped by `layoutsConfig.json`.
+**Version:** 1.0.0
+`nThemes are JSON templates mapped by `layoutsConfig.json`.
 
 ## Files
 

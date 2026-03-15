@@ -1,6 +1,7 @@
 # Arquitetura
 
-O projeto e organizado por fronteiras de feature e responsabilidades do runtime.
+**Version:** 1.0.0
+`nO projeto e organizado por fronteiras de feature e responsabilidades do runtime.
 
 ## Modulos principais
 

@@ -1,6 +1,7 @@
 # FAQ
 
-## Por que repositorios remotos no abren en local?
+**Version:** 1.0.0
+`n## Por que repositorios remotos no abren en local?
 
 Verifica:
 

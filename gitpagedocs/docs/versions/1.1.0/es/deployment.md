@@ -1,6 +1,7 @@
 # Publicacion
 
-Git Page Docs corre como app Next.js con dos objetivos: servidor local y GitHub Pages.
+**Version:** 1.1.0
+`nGit Page Docs corre como app Next.js con dos objetivos: servidor local y GitHub Pages.
 
 ## Publicacion local
 
