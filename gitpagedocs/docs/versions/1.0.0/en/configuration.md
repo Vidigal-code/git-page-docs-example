@@ -1,13 +1,15 @@
 # Configuration
 
 **Version:** 1.0.0
-`nRuntime configuration lives in `gitpagedocs/config.json`.
+
+Runtime configuration lives in `gitpagedocs/config.json`.
 
 ## `site` section
 
 Main keys:
 
-- `name`: project title shown in UI
+- 
+ame`: project title shown in UI
 - `defaultLanguage`: default docs language
 - `supportedLanguages`: available language list
 - `HideThemeSelector`: hide/show theme selector

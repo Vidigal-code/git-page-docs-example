@@ -1,7 +1,8 @@
 # Temas y layouts
 
 **Version:** 1.0.0
-`nLos temas son templates JSON mapeados por `layoutsConfig.json`.
+
+Los temas son templates JSON mapeados por `layoutsConfig.json`.
 
 ## Archivos
 
@@ -13,7 +14,8 @@
 
 Cada template normalmente incluye:
 
-- `id`, `name`, `author`, `version`
+- `id`, 
+ame`, `author`, `version`
 - `mode` y metadatos de par dark/light
 - `colors`
 - `typography`

@@ -1,7 +1,8 @@
 # Getting Started
 
 **Version:** 1.0.0
-`nThis guide configures the project from zero to running docs.
+
+This guide configures the project from zero to running docs.
 
 ## Prerequisites
 
@@ -11,18 +12,25 @@
 ## Local setup
 
 1. Install dependencies:
-   - `npm install`
+   - 
+pm install`
 2. Generate/update docs assets:
-   - `npm run gitpagedocs`
+   - 
+pm run gitpagedocs`
 3. Start development:
-   - `npm run dev`
+   - 
+pm run dev`
 4. Build + run production locally:
-   - `npm run build`
-   - `npm start`
+   - 
+pm run build`
+   - 
+pm start`
 
 ## CLI behavior
 
-`npx gitpagedocs` (or `npm run gitpagedocs`) generates docs assets in the official `gitpagedocs/` folder.
+
+px gitpagedocs` (or 
+pm run gitpagedocs`) generates docs assets in the official `gitpagedocs/` folder.
 
 - Generates only markdown/json artifacts
 - Does not generate `index.html`

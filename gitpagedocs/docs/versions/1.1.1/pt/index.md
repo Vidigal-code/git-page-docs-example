@@ -1,7 +1,8 @@
 # Git Page Docs
 
 **Version:** 1.1.1
-`nGit Page Docs e um runtime de documentacao multi-idioma para repositorios que possuem a pasta `gitpagedocs/`.
+
+Git Page Docs e um runtime de documentacao multi-idioma para repositorios que possuem a pasta `gitpagedocs/`.
 
 ## O que este projeto entrega
 

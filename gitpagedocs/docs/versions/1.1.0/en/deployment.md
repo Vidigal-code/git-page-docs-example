@@ -1,14 +1,17 @@
 # Deployment
 
 **Version:** 1.1.0
-`nGit Page Docs runs as a Next.js app with two major targets: local server and GitHub Pages.
+
+Git Page Docs runs as a Next.js app with two major targets: local server and GitHub Pages.
 
 ## Local deployment
 
 Use:
 
-1. `npm run build`
-2. `npm start`
+1. 
+pm run build`
+2. 
+pm start`
 
 This runs Node + Next.js runtime with the local `gitpagedocs/` folder.
 
@@ -25,7 +28,9 @@ In GitHub Actions builds:
 Package publish:
 
 - bump version in `package.json`
-- run `npm publish --access public`
-- ensure npm auth is valid (`npm whoami`)
+- run 
+pm publish --access public`
+- ensure npm auth is valid (
+pm whoami`)
 
 If publishing prebuilt artifacts on Windows is skipped, use CI for `build:prebuilt`.

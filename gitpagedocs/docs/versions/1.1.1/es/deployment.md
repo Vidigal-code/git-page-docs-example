@@ -1,14 +1,17 @@
 # Publicacion
 
 **Version:** 1.1.1
-`nGit Page Docs corre como app Next.js con dos objetivos: servidor local y GitHub Pages.
+
+Git Page Docs corre como app Next.js con dos objetivos: servidor local y GitHub Pages.
 
 ## Publicacion local
 
 Usa:
 
-1. `npm run build`
-2. `npm start`
+1. 
+pm run build`
+2. 
+pm start`
 
 Esto inicia runtime Node + Next.js usando `gitpagedocs/` local.
 
@@ -25,7 +28,9 @@ En build de GitHub Actions:
 Para publicar en npm:
 
 - actualiza version en `package.json`
-- ejecuta `npm publish --access public`
-- valida autenticacion con `npm whoami`
+- ejecuta 
+pm publish --access public`
+- valida autenticacion con 
+pm whoami`
 
 Si `build:prebuilt` se omite en Windows, usa CI para generar artefactos prebuilt.

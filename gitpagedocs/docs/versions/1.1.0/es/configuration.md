@@ -1,13 +1,15 @@
 # Configuracion
 
 **Version:** 1.1.0
-`nLa configuracion de runtime esta en `gitpagedocs/config.json`.
+
+La configuracion de runtime esta en `gitpagedocs/config.json`.
 
 ## Seccion `site`
 
 Claves principales:
 
-- `name`: titulo del proyecto en UI
+- 
+ame`: titulo del proyecto en UI
 - `defaultLanguage`: idioma por defecto
 - `supportedLanguages`: lista de idiomas disponibles
 - `HideThemeSelector`: ocultar/mostrar selector de tema

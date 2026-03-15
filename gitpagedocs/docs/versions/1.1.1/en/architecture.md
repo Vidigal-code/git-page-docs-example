@@ -1,7 +1,8 @@
 # Architecture
 
 **Version:** 1.1.1
-`nThis project is organized by feature boundaries and UI runtime responsibilities.
+
+This project is organized by feature boundaries and UI runtime responsibilities.
 
 ## Main runtime modules
 
