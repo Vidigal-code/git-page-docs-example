@@ -1,7 +1,5 @@
 # Git Page Docs
 
-**Version:** 1.1.0
-
 Git Page Docs es un runtime de documentacion multilenguaje para repositorios que incluyen la carpeta `gitpagedocs/`.
 
 ## Que entrega este proyecto
@@ -30,4 +28,7 @@ El runtime espera esta estructura:
 - Abre **Publicacion** para comportamiento local/produccion/GitHub Pages.
 - Abre **Arquitectura** para mapa de codigo y flujo de datos.
 - Abre **Temas y layouts** para creacion de templates.
+- Abre **Rutas autorizadas** para configurar clave, roles y autenticacion externa.
 - Abre **FAQ** para troubleshooting.
+
+> Version (ES): 1.1.0

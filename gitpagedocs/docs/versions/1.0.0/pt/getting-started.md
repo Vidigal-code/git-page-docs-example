@@ -1,7 +1,5 @@
 # Primeiros passos
 
-**Version:** 1.0.0
-
 Este guia leva o projeto do zero ate docs rodando.
 
 ## Pre-requisitos
@@ -12,25 +10,18 @@ Este guia leva o projeto do zero ate docs rodando.
 ## Setup local
 
 1. Instale dependencias:
-   - 
-pm install`
+   - `npm install`
 2. Gere/atualize os artefatos de docs:
-   - 
-pm run gitpagedocs`
+   - `npm run gitpagedocs`
 3. Inicie o desenvolvimento:
-   - 
-pm run dev`
+   - `npm run dev`
 4. Build e execucao local de producao:
-   - 
-pm run build`
-   - 
-pm start`
+   - `npm run build`
+   - `npm start`
 
 ## Comportamento da CLI
 
-
-px gitpagedocs` (ou 
-pm run gitpagedocs`) gera os artefatos na pasta oficial `gitpagedocs/`.
+`npx gitpagedocs` (ou `npm run gitpagedocs`) gera os artefatos na pasta oficial `gitpagedocs/`.
 
 - Gera somente markdown/json
 - Nao gera `index.html`
@@ -45,3 +36,5 @@ No ambiente local, o controle e por variavel:
 - `GITPAGEDOCS_REPOSITORY_SEARCH=false`
 
 Em build de GitHub Pages (`GITHUB_ACTIONS=true`), a busca de repositorio fica sempre ativa.
+
+> Versao: 1.0.0
