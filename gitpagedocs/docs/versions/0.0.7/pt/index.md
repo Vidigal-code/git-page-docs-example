@@ -18,8 +18,8 @@ O runtime espera esta estrutura:
 - `gitpagedocs/docs/<lang>/*.md`
 - `gitpagedocs/docs/versions/<versao>/config.json`
 - `gitpagedocs/docs/versions/<versao>/<lang>/*.md`
-- `gitpagedocs/layouts/layoutsConfig.json`
-- `gitpagedocs/layouts/templates/*.json`
+- `gitpagelayouts/layoutsConfig.json`
+- `gitpagelayouts/templates/*.json`
 
 ## Navegacao rapida
 
@@ -31,4 +31,4 @@ O runtime espera esta estrutura:
 - Abra **Rotas autorizadas** para configurar chave, papeis e autenticacao externa.
 - Abra **FAQ** para troubleshooting.
 
-> Versao: 1.1.54
+> Versao: 0.0.7

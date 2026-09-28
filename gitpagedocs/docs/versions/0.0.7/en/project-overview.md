@@ -5,7 +5,7 @@ Git Page Docs is a **pnpm + turborepo monorepo** that turns a repository's `gitp
 ## Monorepo packages
 
 - **frontend/** — Next.js 15 (App Router, React 19) documentation viewer, static-exported for GitHub Pages.
-- **cli/** — the published `gitpagedocs` npm package (`npm install -g gitpagedocs`): scaffolds the docs contract, generates docs with AI, configures Pages, and runs the MCP server.
+- **cli/** — the published `@gitpagedocs/cli` npm package (`npm install -g @gitpagedocs/cli`): scaffolds the docs contract, generates docs with AI, configures Pages, and runs the MCP server.
 - **tools/** — `@gitpagedocs/tools`, the shared business-logic core: the 14-provider AI system, the encrypted credential vault, the config loader, caches, and the logger.
 - **mcp/** — `@gitpagedocs/mcp`, a Model Context Protocol server (20 tools + 7 resources).
 - **gitpagedocs/** — the user contract: `config.json`, versioned docs, and layouts.
@@ -22,6 +22,6 @@ Git Page Docs is a **pnpm + turborepo monorepo** that turns a repository's `gitp
 - 14-provider AI system (OpenAI, Anthropic, Gemini, Ollama, Mistral, DeepSeek, Cohere, Groq, xAI, and more) with streaming
 - AI API keys stored **encrypted at rest** (AES-256-GCM) behind a local password gate — never plaintext
 - In-docs **AI chat drawer** plus a dedicated **`/ai` console**
-- 36-theme layout system; local and GitHub Pages execution modes
+- 64-theme layout system (dark and light variants); local and GitHub Pages execution modes
 
-> Version: 1.1.54
+> Version: 0.0.7

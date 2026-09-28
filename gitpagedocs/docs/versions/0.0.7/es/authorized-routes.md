@@ -52,4 +52,4 @@ Adaptadores soportados:
 - Firebase Auth (`type: "firebase"`)
 - JWT custom (`type: "jwt"`)
 
-> Version (ES): 1.1.54
+> Version (ES): 0.0.7

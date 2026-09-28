@@ -1,6 +1,6 @@
 # Git Page Docs Example
 
-This repository is an example of a documentation project generated with `gitpagedocs`.
+This repository is an example of a documentation project generated with `gitpagedocs` **0.0.7**.
 It demonstrates versioned content, multi-language pages, and centralized configuration through `gitpagedocs/config.json`.
 
 ## What is included
@@ -8,29 +8,22 @@ It demonstrates versioned content, multi-language pages, and centralized configu
 - Versioned documentation under `gitpagedocs/docs/versions/`
 - Three languages: English (`en`), Portuguese (`pt`), and Spanish (`es`)
 - A main project configuration file: `gitpagedocs/config.json`
-- Per-version configuration files, for example:
-  - `gitpagedocs/docs/versions/1.0.0/config.json`
-  - `gitpagedocs/docs/versions/1.1.0/config.json`
-  - `gitpagedocs/docs/versions/1.1.1/config.json`
+- A per-version configuration file: `gitpagedocs/docs/versions/0.0.7/config.json`
+- Interface translations under `gitpagedocs/langs/`
 
 ## Project structure
 
 ```text
 gitpagedocs/
   config.json
+  icon.svg
+  langs/
+    en.json
+    pt.json
+    es.json
   docs/
     versions/
-      1.0.0/
-        config.json
-        en/*.md
-        pt/*.md
-        es/*.md
-      1.1.0/
-        config.json
-        en/*.md
-        pt/*.md
-        es/*.md
-      1.1.1/
+      0.0.7/
         config.json
         en/*.md
         pt/*.md
@@ -39,16 +32,17 @@ gitpagedocs/
 
 ## Getting started
 
-1. Install dependencies:
+Regenerate or initialize the docs structure with the CLI (published as `@gitpagedocs/cli`, bin `gitpagedocs`):
 
 ```bash
-npm install
+npx @gitpagedocs/cli
 ```
 
-2. Regenerate or initialize docs structure (optional):
+Or install it globally:
 
 ```bash
-npx gitpagedocs
+npm install -g @gitpagedocs/cli
+gitpagedocs
 ```
 
 ## Editing documentation
@@ -56,6 +50,7 @@ npx gitpagedocs
 - Edit markdown pages inside `gitpagedocs/docs/versions/<version>/<language>/`
 - Update global behavior in `gitpagedocs/config.json`
 - Update version-specific settings in each version `config.json`
+- Update interface texts in `gitpagedocs/langs/<language>.json`
 
 ## View docs
 
@@ -65,8 +60,6 @@ Use the official Git Page Docs website and point it to this repository:
 
 Then fill in the GitHub owner and repository name to load the docs.
 
-## Dependency
+## Source
 
-This project uses:
-
-- `gitpagedocs` (defined in `package.json`)
+- CLI and runtime: https://github.com/Vidigal-code/git-page-docs

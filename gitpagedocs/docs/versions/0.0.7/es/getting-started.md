@@ -21,7 +21,7 @@ Esta guia lleva el proyecto desde cero hasta docs corriendo.
 
 ## Comportamiento de la CLI
 
-`npx gitpagedocs` (o `npm run gitpagedocs`) genera artefactos en la carpeta oficial `gitpagedocs/`.
+`npx @gitpagedocs/cli` (o `npm run gitpagedocs`) genera artefactos en la carpeta oficial `gitpagedocs/`.
 
 - Genera solo markdown/json
 - No genera `index.html`
@@ -37,4 +37,4 @@ En local, se controla por variable:
 
 En build de GitHub Pages (`GITHUB_ACTIONS=true`), la busqueda de repositorio siempre esta activa.
 
-> Version (ES): 1.1.54
+> Version (ES): 0.0.7

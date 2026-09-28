@@ -10,11 +10,11 @@ This guide configures your repository from zero to running docs.
 ## Install and generate
 
 1. Install package:
-   - `npm install gitpagedocs`
+   - `npm install @gitpagedocs/cli`
 2. Generate docs config and versions:
-   - `npx gitpagedocs`
+   - `npx @gitpagedocs/cli`
 3. Optional: generate local layouts/templates:
-   - `npx gitpagedocs --layoutconfig`
+   - `npx @gitpagedocs/cli --layoutconfig`
 
 ## Local run
 
@@ -26,7 +26,7 @@ This guide configures your repository from zero to running docs.
 
 ## CLI behavior
 
-`npx gitpagedocs` generates only artifacts in `gitpagedocs/`:
+`npx @gitpagedocs/cli` generates only artifacts in `gitpagedocs/`:
 
 - JSON + markdown docs assets
 - No `index.html`
@@ -42,4 +42,4 @@ Local repository search is controlled by:
 
 On GitHub Pages builds (`GITHUB_ACTIONS=true`), repository-search home is enabled.
 
-> Version: 1.1.54
+> Version: 0.0.7

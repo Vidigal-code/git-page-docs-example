@@ -7,19 +7,23 @@ Complete reference of CLI options, configuration keys, and runtime features.
 | Command | Description |
 |---------|--------------|
 | `gitpagedocs` | Generate config and docs in `gitpagedocs/` |
-| `gitpagedocs --layoutconfig` | Also generate local layouts/templates |
+| `gitpagedocs --layoutconfig` | Also generate local layouts/templates in `gitpagelayouts/` |
 | `gitpagedocs --home` | Standalone distribution (`gitpagedocshome/`) |
 | `gitpagedocs --push --owner X --repo Y` | Setup workflow, commit, push |
-| `gitpagedocs --interactive` / `-i` | Interactive mode with prompts |
+| `gitpagedocs --interactive` / `-i` | Interactive mode with prompts (the default in a terminal) |
+| `gitpagedocs --no-interactive` / `--yes` / `-y` | Never prompt; use flags and defaults |
 | `gitpagedocs ai` | Interactive AI documentation generator |
+| `gitpagedocs chat [question]` | Streaming AI chat in the terminal (REPL on a TTY; one-shot with a question or piped stdin) |
 | `gitpagedocs provider [id]` / `models [provider]` | List AI providers / catalog models |
 | `gitpagedocs document[:repo\|:file\|:folder]` | Generate documentation with AI |
 | `gitpagedocs deploy` / `pages [actions\|deploy]` | Configure GitHub Pages via Actions + push |
 | `gitpagedocs docs` | Refresh README/CONTRIBUTING/SECURITY managed regions |
-| `gitpagedocs doctor` / `version` / `update` | Diagnostics / version / update hint |
+| `gitpagedocs password` | Set a documentation access password (public key in `site.docsAccess`) |
+| `gitpagedocs config` / `config clear` | Show the resolved config / delete the stored config and key vault |
+| `gitpagedocs doctor` / `version` / `update` | Diagnostics / version / registry update check |
 | `gitpagedocs mcp start` | Start the MCP server over stdio |
 
-Install globally with `npm install -g gitpagedocs`, or run one-off with `npx gitpagedocs`.
+Install globally with `npm install -g @gitpagedocs/cli`, or run one-off with `npx @gitpagedocs/cli`.
 
 ## CLI options
 
@@ -30,8 +34,10 @@ Install globally with `npm install -g gitpagedocs`, or run one-off with `npx git
 | `--path <subpath>` | Docs subpath (e.g. `docs`); without it, base path = repo name for correct CSS/JS on project sites |
 | `--output <dir>` | Output directory (default: `gitpagedocs`) |
 | `--search true|false` | Enable/disable repository search (`--home`) |
-| `--layoutconfig` | Generate `gitpagedocs/layouts/` |
+| `--layoutconfig` | Generate local layouts in `gitpagelayouts/` |
+| `--layouts-dir <dir>` | Folder for local layouts (default: `gitpagelayouts`) |
 | `--push` | Create workflow, commit artifacts, push |
+| `--pages-actions` | Only switch GitHub Pages to GitHub Actions (same as `pages actions`) |
 | `--home` | Generate `gitpagedocshome/` (static + .env + Dockerfile) |
 
 ## Generated output
@@ -40,7 +46,7 @@ Install globally with `npm install -g gitpagedocs`, or run one-off with `npx git
 - `gitpagedocs/icon.svg` – default icon
 - `gitpagedocs/docs/versions/<ver>/config.json` – per-version routes
 - `gitpagedocs/docs/versions/<ver>/{en,pt,es}/*.md` – markdown docs
-- `gitpagedocs/layouts/` – only with `--layoutconfig`
+- `gitpagelayouts/` – only with `--layoutconfig` (folder configurable with `--layouts-dir`)
 
 ## Content types
 
@@ -64,9 +70,10 @@ The version config can render a **Source code** container through `routes-source
 
 ## Config keys (site)
 
-- `name`, `defaultLanguage`, `supportedLanguages`
+- `name`, `defaultLanguage`
 - `docsVersion`, `rendering`, `ThemeDefault`, `ThemeModeDefault`
 - `ProjectLink`, `layoutsConfigPathOficial`, `layoutsConfigPath`
+- Languages: `site.languages` (enable/disable each one); UI strings: `gitpagedocs/langs/<lang>.json`
 
 ## Environment variables
 
@@ -75,15 +82,17 @@ The version config can render a **Source code** container through `routes-source
 
 ## AI assistant
 
-The docs ship an AI assistant in two surfaces: an in-docs **chat drawer** (the ✨ button in the sidebar, enabled via `site.AiChatEnabled`) and a dedicated **`/ai` console** page.
+The docs ship an AI assistant in two surfaces: an in-docs **chat drawer** (the AI chat button in the sidebar, enabled via `site.AiChatEnabled`) and a dedicated **`/ai` console** page.
 
 - **14 providers** via one shared core: OpenAI, Anthropic, Gemini, OpenRouter, Ollama, Azure OpenAI, Mistral, DeepSeek, Cohere, Groq, xAI, Together, Fireworks, Perplexity.
-- **Model selection** — pick from each provider's catalog (`gitpagedocs models <provider>`) or type a custom id.
-- **Encrypted at rest** — your API key is sealed with AES-256-GCM behind a **local password** (one unlock per session) and is never stored in plaintext or logged. A legacy plaintext key is migrated and wiped on first unlock.
-- **AI documentation generation** — `gitpagedocs ai` scans chosen paths and writes multilingual markdown (pt/en/es); reusable via `.gitpagedocsconfig`.
+- **Model selection** — pick from each provider's catalog (`gitpagedocs models <provider>`); a stored model id the provider has retired is replaced by the provider default automatically.
+- **Encrypted at rest** — your API key is sealed with AES-256-GCM behind a **local password** and is never stored in plaintext or logged.
+- **Inactivity auto-lock** — the chat drawer locks itself after `site.AiChatAutoLockSeconds` idle seconds (default 30, `0` disables): a centered countdown modal in your language lets you cancel or lock now, and unlocking asks for the password again.
+- **Resilient providers** — transient provider errors are retried (3 attempts) and a final failure is a plain message ending with "Try again!".
+- **AI documentation generation** — `gitpagedocs ai` scans chosen paths and writes multilingual markdown (pt/en/es); reusable via `.gitpagedocsconfig`, whose API key lives sealed in the encrypted `.gitpagedocsvault` (the vault password is asked on every run). `gitpagedocs chat` brings the same assistant to the terminal.
 
 ## MCP server
 
 `gitpagedocs mcp start` runs a Model Context Protocol server (stdio) exposing **20 tools** (filesystem, AI, doc generation/analysis) and **7 resources** (`project://structure|docs|config|repository|readme|ai/providers|ai/models`) for editors and AI agents.
 
-> Version: 1.1.54
+> Version: 0.0.7

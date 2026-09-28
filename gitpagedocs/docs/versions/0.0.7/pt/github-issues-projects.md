@@ -8,4 +8,4 @@ Aprenda a usar GitHub Issues e Projects para gerenciar seu trabalho.
 - Projects para visualizar e organizar o trabalho
 - Workflows recomendados para equipes
 
-> Versao: 1.1.54
+> Versao: 0.0.7

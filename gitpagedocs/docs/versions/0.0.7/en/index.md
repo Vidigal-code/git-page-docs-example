@@ -18,8 +18,8 @@ The runtime expects this structure:
 - `gitpagedocs/docs/<lang>/*.md`
 - `gitpagedocs/docs/versions/<version>/config.json`
 - `gitpagedocs/docs/versions/<version>/<lang>/*.md`
-- `gitpagedocs/layouts/layoutsConfig.json`
-- `gitpagedocs/layouts/templates/*.json`
+- `gitpagelayouts/layoutsConfig.json` (only with `--layoutconfig`)
+- `gitpagelayouts/templates/*.json` (only with `--layoutconfig`)
 
 ## Quick navigation
 
@@ -31,4 +31,4 @@ The runtime expects this structure:
 - Open **Authorized routes** for key, roles, and external auth setup.
 - Open **FAQ** for troubleshooting.
 
-> Version: 1.1.54
+> Version: 0.0.7
