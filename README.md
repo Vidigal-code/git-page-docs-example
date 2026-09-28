@@ -54,7 +54,11 @@ gitpagedocs
 
 ## View docs
 
-Use the official Git Page Docs website and point it to this repository:
+Live docs for this repository:
+
+- https://vidigal-code.github.io/git-page-docs/Vidigal-code/git-page-docs-example?theme=carbon-dark&modetheme=dark
+
+Or use the official Git Page Docs website and point it to this repository:
 
 - https://vidigal-code.github.io/git-page-docs/
 
