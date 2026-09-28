@@ -1,0 +1,65 @@
+# JetBrains (IntelliJ IDEA, WebStorm, PyCharm, Rider, CLion, GoLand, PhpStorm, RubyMine, DataGrip, Android Studio, Fleet)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.fleet/
+
+# Visual Studio Code / VSCodium / Cursor / Windsurf
+.vscode/
+*.code-workspace
+.history/
+.cursor/
+.windsurf/
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Eclipse / Spring Tool Suite
+.project
+.classpath
+.settings/
+.metadata/
+.loadpath
+.recommenders/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# Zed
+.zed/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# Emacs
+\#*\#
+.\#*
+*.elc
+auto-save-list/
+.projectile
+
+# Xcode
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
