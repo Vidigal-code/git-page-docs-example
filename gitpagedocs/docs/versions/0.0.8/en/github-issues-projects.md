@@ -14,4 +14,4 @@ Learn how to use GitHub Issues and Projects to manage your work.
 - Tables and roadmaps
 - Custom fields and automation
 
-> Version: 0.0.7
+> Version: 0.0.8

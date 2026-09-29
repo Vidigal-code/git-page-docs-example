@@ -1,6 +1,6 @@
 # Git Page Docs Example
 
-This repository is an example of a documentation project generated with `gitpagedocs` **0.0.7**.
+This repository is an example of a documentation project generated with `gitpagedocs` **0.0.8**.
 It demonstrates versioned content, multi-language pages, and centralized configuration through `gitpagedocs/config.json`.
 
 ## What is included
@@ -8,7 +8,7 @@ It demonstrates versioned content, multi-language pages, and centralized configu
 - Versioned documentation under `gitpagedocs/docs/versions/`
 - Three languages: English (`en`), Portuguese (`pt`), and Spanish (`es`)
 - A main project configuration file: `gitpagedocs/config.json`
-- A per-version configuration file: `gitpagedocs/docs/versions/0.0.7/config.json`
+- A per-version configuration file: `gitpagedocs/docs/versions/0.0.8/config.json`
 - Interface translations under `gitpagedocs/langs/`
 
 ## Project structure
@@ -23,7 +23,7 @@ gitpagedocs/
     es.json
   docs/
     versions/
-      0.0.7/
+      0.0.8/
         config.json
         en/*.md
         pt/*.md

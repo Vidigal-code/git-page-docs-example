@@ -75,6 +75,12 @@ El config de version puede renderizar un contenedor **Codigo fuente** via `route
 - `ProjectLink`, `layoutsConfigPathOficial`, `layoutsConfigPath`
 - Idiomas: `site.languages` (activa/desactiva cada uno); textos de la UI: `gitpagedocs/langs/<lang>.json`
 
+## Reproduccion de medios (un sonido a la vez)
+
+`site.mediaExclusivePlayback` (por defecto `true`): reproducir un video de ruta pausa la radio y las pistas de audio, y reproducir la radio o una pista de audio pausa el video. Funciona con YouTube y Vimeo (mediante las APIs de sus reproductores), archivos nativos (`mp4`, `webm`, …) y cualquier otro embed.
+
+Para mostrar un video sin sonido mientras la radio o una pista de audio lo explica, usa `"muted": true` en el objeto `video` de la ruta: el video reproduce solo la imagen y queda fuera de la regla. `"mediaExclusivePlayback": false` desactiva la regla en todo el sitio.
+
 ## Variables de entorno
 
 - `GITPAGEDOCS_REPOSITORY_SEARCH` – busqueda de repositorio (local)
@@ -95,4 +101,4 @@ Los docs traen un asistente de IA en dos superficies: un **panel de chat** dentr
 
 `gitpagedocs mcp start` levanta un servidor Model Context Protocol (stdio) que expone **20 tools** (sistema de archivos, IA, generacion/analisis de docs) y **7 resources** (`project://structure|docs|config|repository|readme|ai/providers|ai/models`) para editores y agentes de IA.
 
-> Version (ES): 0.0.7
+> Version (ES): 0.0.8

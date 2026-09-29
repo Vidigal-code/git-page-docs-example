@@ -31,4 +31,4 @@ O runtime espera esta estrutura:
 - Abra **Rotas autorizadas** para configurar chave, papeis e autenticacao externa.
 - Abra **FAQ** para troubleshooting.
 
-> Versao: 0.0.7
+> Versao: 0.0.8

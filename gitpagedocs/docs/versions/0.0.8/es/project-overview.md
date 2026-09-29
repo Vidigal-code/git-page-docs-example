@@ -24,4 +24,4 @@ Git Page Docs es un monorepo pnpm + turborepo que convierte la carpeta `gitpaged
 - **Panel de chat de IA** en los docs + una **consola `/ai`** dedicada
 - Sistema de 64 temas (variantes oscuras y claras); ejecucion local y en GitHub Pages
 
-> Version (ES): 0.0.7
+> Version (ES): 0.0.8

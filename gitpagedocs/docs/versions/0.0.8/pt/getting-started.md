@@ -37,4 +37,4 @@ No ambiente local, o controle e por variavel:
 
 Em build de GitHub Pages (`GITHUB_ACTIONS=true`), a busca de repositorio fica sempre ativa.
 
-> Versao: 0.0.7
+> Versao: 0.0.8

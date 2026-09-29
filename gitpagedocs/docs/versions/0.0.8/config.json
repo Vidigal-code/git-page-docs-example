@@ -60,9 +60,9 @@
         "es": "Configura el repositorio desde cero"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/getting-started.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/getting-started.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/getting-started.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/getting-started.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/getting-started.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/getting-started.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
@@ -83,9 +83,9 @@
         "es": "Stack, objetivos y estructura de Git Page Docs"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/project-overview.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/project-overview.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/project-overview.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/project-overview.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/project-overview.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/project-overview.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
@@ -122,9 +122,9 @@
         "es": "CLI, opciones, configuración y funciones"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/functionalities.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/functionalities.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/functionalities.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/functionalities.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/functionalities.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/functionalities.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
@@ -150,9 +150,9 @@
         "es": "Cómo usar GitHub Issues y Projects"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/github-issues-projects.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/github-issues-projects.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/github-issues-projects.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/github-issues-projects.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/github-issues-projects.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/github-issues-projects.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
@@ -173,15 +173,22 @@
         "es": "Conceptos básicos de Git para principiantes"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/git-introduction.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/git-introduction.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/git-introduction.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/git-introduction.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/git-introduction.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/git-introduction.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
       "RouteGuideSpeciFicbrand": [],
       "RouteguideBrandPosition": "center",
-      "RouteguideBrandContainerTop": false
+      "RouteguideBrandContainerTop": false,
+      "hierarchyPage": {
+        "video": 0,
+        "md": 1,
+        "source-viewer": 2,
+        "html": 3,
+        "audio": 4
+      }
     },
     {
       "id": 6,
@@ -196,9 +203,9 @@
         "es": "Controla acceso por clave, roles y proveedores externos"
       },
       "path": {
-        "pt": "gitpagedocs/docs/versions/0.0.7/pt/authorized-routes.md",
-        "en": "gitpagedocs/docs/versions/0.0.7/en/authorized-routes.md",
-        "es": "gitpagedocs/docs/versions/0.0.7/es/authorized-routes.md"
+        "pt": "gitpagedocs/docs/versions/0.0.8/pt/authorized-routes.md",
+        "en": "gitpagedocs/docs/versions/0.0.8/en/authorized-routes.md",
+        "es": "gitpagedocs/docs/versions/0.0.8/es/authorized-routes.md"
       },
       "fullscreenEnabled": true,
       "RouteguideBrand": true,
@@ -244,6 +251,32 @@
   ],
   "routes-html": [],
   "routes-video": [
+    {
+      "id": 5,
+      "title": {
+        "pt": "A brief introduction to Git for beginners | GitHub",
+        "en": "A brief introduction to Git for beginners | GitHub",
+        "es": "A brief introduction to Git for beginners | GitHub"
+      },
+      "description": {
+        "pt": "Introdução ao Git para iniciantes.",
+        "en": "A brief introduction to Git for beginners.",
+        "es": "Una breve introducción a Git para principiantes."
+      },
+      "fullscreenEnabled": true,
+      "video": {
+        "videoType": {
+          "pt": "youtube",
+          "en": "youtube",
+          "es": "youtube"
+        },
+        "pathVideo": {
+          "pt": "r8jQ9hVA2qs",
+          "en": "r8jQ9hVA2qs",
+          "es": "r8jQ9hVA2qs"
+        }
+      }
+    },
     {
       "id": 8,
       "title": {
@@ -373,15 +406,6 @@
           "en": "r8jQ9hVA2qs",
           "es": "r8jQ9hVA2qs"
         }
-      },
-      "authorization": {
-        "requireExternalAuth": true,
-        "allowedProviders": [
-          "authjs",
-          "clerk",
-          "firebase",
-          "jwt"
-        ]
       }
     }
   ],
@@ -418,90 +442,90 @@
       "id": 1,
       "pt": {
         "title": "Primeiros passos",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/getting-started.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/getting-started.md"
       },
       "en": {
         "title": "Getting Started",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/getting-started.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/getting-started.md"
       },
       "es": {
         "title": "Primeros pasos",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/getting-started.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/getting-started.md"
       }
     },
     {
       "id": 2,
       "pt": {
         "title": "Visão geral do projeto",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/project-overview.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/project-overview.md"
       },
       "en": {
         "title": "Project overview",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/project-overview.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/project-overview.md"
       },
       "es": {
         "title": "Visión general del proyecto",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/project-overview.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/project-overview.md"
       }
     },
     {
       "id": 3,
       "pt": {
         "title": "Funcionalidades",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/functionalities.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/functionalities.md"
       },
       "en": {
         "title": "Functionalities",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/functionalities.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/functionalities.md"
       },
       "es": {
         "title": "Funcionalidades",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/functionalities.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/functionalities.md"
       }
     },
     {
       "id": 4,
       "pt": {
         "title": "GitHub Issues e Projects",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/github-issues-projects.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/github-issues-projects.md"
       },
       "en": {
         "title": "GitHub issues and projects",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/github-issues-projects.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/github-issues-projects.md"
       },
       "es": {
         "title": "GitHub issues y projects",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/github-issues-projects.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/github-issues-projects.md"
       }
     },
     {
       "id": 5,
       "pt": {
         "title": "Introdução ao Git",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/git-introduction.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/git-introduction.md"
       },
       "en": {
         "title": "Introduction to Git",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/git-introduction.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/git-introduction.md"
       },
       "es": {
         "title": "Introducción a Git",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/git-introduction.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/git-introduction.md"
       }
     },
     {
       "id": 6,
       "pt": {
         "title": "Rotas autorizadas",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/pt/authorized-routes.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/pt/authorized-routes.md"
       },
       "en": {
         "title": "Authorized routes",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/en/authorized-routes.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/en/authorized-routes.md"
       },
       "es": {
         "title": "Rutas autorizadas",
-        "path-click": "gitpagedocs/docs/versions/0.0.7/es/authorized-routes.md"
+        "path-click": "gitpagedocs/docs/versions/0.0.8/es/authorized-routes.md"
       }
     }
   ],

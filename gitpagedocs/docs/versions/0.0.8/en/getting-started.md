@@ -42,4 +42,4 @@ Local repository search is controlled by:
 
 On GitHub Pages builds (`GITHUB_ACTIONS=true`), repository-search home is enabled.
 
-> Version: 0.0.7
+> Version: 0.0.8

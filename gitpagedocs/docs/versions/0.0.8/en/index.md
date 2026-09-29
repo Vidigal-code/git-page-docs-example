@@ -31,4 +31,4 @@ The runtime expects this structure:
 - Open **Authorized routes** for key, roles, and external auth setup.
 - Open **FAQ** for troubleshooting.
 
-> Version: 0.0.7
+> Version: 0.0.8

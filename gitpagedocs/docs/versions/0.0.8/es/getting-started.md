@@ -37,4 +37,4 @@ En local, se controla por variable:
 
 En build de GitHub Pages (`GITHUB_ACTIONS=true`), la busqueda de repositorio siempre esta activa.
 
-> Version (ES): 0.0.7
+> Version (ES): 0.0.8

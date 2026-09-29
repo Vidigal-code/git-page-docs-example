@@ -31,4 +31,4 @@ El runtime espera esta estructura:
 - Abre **Rutas autorizadas** para configurar clave, roles y autenticacion externa.
 - Abre **FAQ** para troubleshooting.
 
-> Version (ES): 0.0.7
+> Version (ES): 0.0.8
