@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "Git Page Docs",
+    "name": "GitPageDocs Example",
     "defaultLanguage": "en",
     "languages": {
       "en": true,
@@ -10,16 +10,77 @@
     "HideThemeSelector": false,
     "ThemeDefault": "aurora-dark",
     "ThemeModeDefault": "dark",
-    "ActiveNavigation": true,
-    "FocusMode": true,
-    "FooterEnabled": true,
-    "FooterLinkName": "GitPageDocs",
-    "FooterLinkUrl": "https://github.com/Vidigal-code/git-page-docs",
-    "FooterDateMode": "browser",
-    "FooterDateCustom": "",
-    "ProjectLink": "https://github.com/Vidigal-code/git-page-docs",
-    "SiteIconPath": "/icon.svg",
-    "SiteHeaderName": "Git Page Docs",
+    "backToTop": {
+      "enabled": true,
+      "minPageHeightViewports": 3
+    },
+    "documentNavigation": {
+      "position": "center"
+    },
+    "containerPagination": {
+      "enabled": true,
+      "alignment": "right",
+      "placement": "bottom",
+      "display": "icon",
+      "showCount": true,
+      "controls": {
+        "first": true,
+        "previous": true,
+        "next": true,
+        "last": true
+      },
+      "icons": {
+        "first": "FiSkipBack",
+        "previous": "FiChevronLeft",
+        "next": "FiChevronRight",
+        "last": "FiSkipForward"
+      },
+      "iconSize": "20px",
+      "labels": {
+        "pages": {
+          "en": "Pages",
+          "pt": "Páginas",
+          "es": "Páginas"
+        },
+        "first": {
+          "en": "First page",
+          "pt": "Primeira página",
+          "es": "Primera página"
+        },
+        "previous": {
+          "en": "Previous page",
+          "pt": "Página anterior",
+          "es": "Página anterior"
+        },
+        "next": {
+          "en": "Next page",
+          "pt": "Próxima página",
+          "es": "Página siguiente"
+        },
+        "last": {
+          "en": "Last page",
+          "pt": "Última página",
+          "es": "Última página"
+        }
+      }
+    },
+    "markdownMarkers": {
+      "enabled": true,
+      "style": {
+        "background": "color-mix(in srgb, var(--primary) 24%, transparent)",
+        "color": "var(--text)",
+        "outlineColor": "var(--primary)"
+      }
+    },
+    "backgroundEffects": {
+      "enabled": true,
+      "overrides": {
+        "accessibility": {
+          "showPauseButton": true
+        }
+      },
+      "themes": {}
+    },
     "icons": {
       "defaults": {
         "reactIcon": true,
@@ -30,6 +91,116 @@
         "imgLight": "",
         "imgWidth": 20,
         "imgHeight": 20
+      },
+      "BackgroundAnimationPause": {
+        "tag": "FiPause",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "BackgroundAnimationResume": {
+        "tag": "FiPlay",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "QuickNavigation": {
+        "tag": "LuSearch",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "LanguageSelector": {
+        "tag": "SiGoogletranslate",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "ThemeSelector": {
+        "tag": "LuPencil",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "VersionSelector": {
+        "tag": "LuGitBranch",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "FocusMode": {
+        "tag": "LuBookOpen",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "PdfDownload": {
+        "tag": "LuDownload",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "PdfOpenInNewTab": {
+        "tag": "LuExternalLink",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "DocumentPrevious": {
+        "tag": "LuChevronLeft",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
+      },
+      "DocumentNext": {
+        "tag": "LuChevronRight",
+        "colorDark": "currentColor",
+        "colorLight": "currentColor",
+        "size": "22px",
+        "imgDark": null,
+        "imgLight": null,
+        "imgWidth": null,
+        "imgHeight": null
       },
       "ImageMenuHeader": {
         "tag": "FaGithubAlt"
@@ -150,6 +321,38 @@
         "size": "22px"
       }
     },
+    "ActiveNavigation": true,
+    "FocusMode": true,
+    "focusMode": {
+      "copyEnabled": true,
+      "downloadEnabled": true,
+      "sectionNavigationEnabled": true,
+      "documentNavigationEnabled": true
+    },
+    "nestedMenusEnabled": true,
+    "pdf": {
+      "enabled": true,
+      "previewEnabled": true,
+      "downloadEnabled": true,
+      "openInNewTabEnabled": true
+    },
+    "RouteGuide": true,
+    "accessibility": {
+      "enabled": true,
+      "narration": {
+        "enabled": true,
+        "defaultRate": 1,
+        "defaultVolume": 1
+      }
+    },
+    "FooterEnabled": true,
+    "FooterLinkName": "GitPageDocs Example",
+    "FooterLinkUrl": "https://github.com/Vidigal-code/git-page-docs-example",
+    "FooterDateMode": "browser",
+    "FooterDateCustom": "",
+    "ProjectLink": "https://github.com/Vidigal-code/git-page-docs-example",
+    "SiteIconPath": "/icon.svg",
+    "SiteHeaderName": "GitPageDocs Example",
     "RouteguideBrandPositionDefault": "center",
     "RouteguideBrandContainerTopDefault": false,
     "audioPlayerEnabled": true,
@@ -183,8 +386,8 @@
     "TocScrollMaxHeightDesktop": "min(65vh, 400px)",
     "TocScrollMaxHeightMobile": "min(45vh, 280px)",
     "layoutsConfigPathOficial": true,
-    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/main/gitpagelayouts/templates",
-    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/main/gitpagelayouts/layoutsConfig.json",
+    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.17/gitpagelayouts/templates",
+    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.17/gitpagelayouts/layoutsConfig.json",
     "layoutsConfigPath": "",
     "layoutsConfigPathTemplates": "",
     "repositorySearchHome": true,
@@ -197,6 +400,29 @@
   },
   "VersionControl": {
     "versions": [
+      {
+        "id": "0.0.17",
+        "path": "gitpagedocs/docs/versions/0.0.17/config.json",
+        "ProjectLink": "https://github.com/Vidigal-code/git-page-docs-example",
+        "PathConfig": "gitpagedocs/docs/versions/0.0.17/config.json",
+        "PreviewProject": "",
+        "UpdateDate": "2026-10-29",
+        "branch": [
+          {
+            "name": "main",
+            "url": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+          }
+        ],
+        "release": [],
+        "commit": [
+          {
+            "name": "b5b8ad11d28d",
+            "url": "https://github.com/Vidigal-code/git-page-docs-example/commit/b5b8ad11d28dbbcd904b105d625c72efd2805cd5"
+          }
+        ],
+        "source-viewer": true,
+        "source-viewer-path": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+      },
       {
         "id": "0.0.8",
         "path": "gitpagedocs/docs/versions/0.0.8/config.json",
