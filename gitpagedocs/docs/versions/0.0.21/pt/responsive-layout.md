@@ -63,4 +63,6 @@ Essas larguras formam uma matriz de verificação, não uma certificação de to
 
 A ação de pausa do cabeçalho controla a animação decorativa sem ocultar a documentação. A preferência de redução de movimento do sistema tem prioridade. Para desabilitar os efeitos de fundo em todo o site, configure `site.backgroundEffects.enabled` como false. Teste uma página longa durante rolagem e abertura de menus; os efeitos visuais não devem atrasar o acesso ao conteúdo. Consulte [Temas e layouts](themes.md) para opções por tema e de desempenho.
 
+Desde o visualizador 0.0.22, os controles do cabeçalho da documentação exibem um ícone padrão enquanto o ícone configurado carrega, evitando controles vazios. O ícone configurado substitui esse padrão quando está pronto; uma preferência explícita por texto continua como texto. Em telas estreitas, os controles de ações Markdown reservam espaço próprio antes do título do documento, sem cobri-lo.
+
 > Versão: 0.0.21

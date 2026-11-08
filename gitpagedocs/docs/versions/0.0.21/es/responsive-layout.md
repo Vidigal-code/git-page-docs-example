@@ -63,4 +63,6 @@ Estos anchos forman una matriz de comprobación, no una certificación de todos 
 
 La acción de pausa de la cabecera controla la animación decorativa sin ocultar la documentación. La preferencia del sistema de movimiento reducido tiene prioridad. Para desactivar los efectos de fondo del sitio, configura `site.backgroundEffects.enabled` como false. Prueba una página larga al desplazarte y abrir menús; los efectos no deben retrasar el acceso al contenido. Consulta [Temas y diseños](themes.md) para las opciones por tema y de rendimiento.
 
+Desde el visor 0.0.22, los controles del encabezado de la documentación muestran un icono predeterminado mientras carga el icono configurado, evitando controles vacíos. El icono configurado sustituye ese valor cuando está listo; una preferencia explícita por texto conserva el texto. En pantallas estrechas, los controles de acciones Markdown reservan su propio espacio antes del título del documento, sin cubrirlo.
+
 > Versión: 0.0.21

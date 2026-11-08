@@ -63,4 +63,6 @@ These widths are a verification matrix, not a claim that all browsers, fold stat
 
 The header pause action controls decorative animation without hiding the documentation. The operating system's reduced-motion preference takes precedence. To disable theme background effects for the entire site, set `site.backgroundEffects.enabled` to false. Test a long page while scrolling and opening menus; visual effects should not delay access to content. See [Themes and layouts](themes.md) for per-theme and performance settings.
 
+Since viewer 0.0.22, documentation header controls show a built-in fallback while a configured icon loads, so the control does not appear empty. The configured icon replaces that fallback when ready; an explicit text preference remains text. On narrow screens, Markdown action controls reserve their own space before the document heading instead of covering it.
+
 > Version: 0.0.21

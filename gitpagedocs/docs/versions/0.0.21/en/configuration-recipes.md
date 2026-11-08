@@ -6,7 +6,7 @@ This guide builds a small multilingual documentation site with two Markdown page
 
 This site selects 0.0.21 first and preserves 0.0.17 and 0.0.8 as historical documentation. A newly generated CLI scaffold may include additional versions. Check `VersionControl.versions` in the root configuration to find the versions that actually belong to your site; preserving a directory alone does not add it to the selector.
 
-Run `npx --yes @gitpagedocs/cli@0.0.21 --no-interactive --owner YOUR_USER --repo YOUR_REPOSITORY` in a new project directory. In this source repository, `node cli/index.mjs` runs the checked-out version. Generation writes configuration and documentation; it does not start the Next.js viewer.
+Run `npx --yes @gitpagedocs/cli@0.0.22 --no-interactive --owner YOUR_USER --repo YOUR_REPOSITORY` in a new project directory. In this source repository, `node cli/index.mjs` runs the checked-out version. Generation writes configuration and documentation; it does not start the Next.js viewer.
 
 Use the following complete JSON as a minimal root-config example in `gitpagedocs/config.json`. For an existing site, merge the relevant fields and preserve its repository identity, deployment settings, themes and other versions.
 

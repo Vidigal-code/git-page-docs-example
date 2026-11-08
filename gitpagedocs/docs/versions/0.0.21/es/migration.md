@@ -9,8 +9,8 @@ Anota el commit publicado, la versión de la CLI y la revisión del workflow. Ej
 Para comparar de forma reproducible, indica el paquete exacto:
 
 ```sh
-npx --yes @gitpagedocs/cli@0.0.21 version
-npx --yes @gitpagedocs/cli@0.0.21 --no-interactive --owner TU_USUARIO --repo TU_REPOSITORIO --output gitpagedocs-candidate
+npx --yes @gitpagedocs/cli@0.0.22 version
+npx --yes @gitpagedocs/cli@0.0.22 --no-interactive --owner TU_USUARIO --repo TU_REPOSITORIO --output gitpagedocs-candidate
 git diff --no-index -- gitpagedocs gitpagedocs-candidate
 ```
 
