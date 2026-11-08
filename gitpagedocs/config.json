@@ -1,6 +1,6 @@
 {
   "site": {
-    "name": "GitPageDocs Example",
+    "name": "GitPageDocs",
     "defaultLanguage": "en",
     "languages": {
       "en": true,
@@ -346,16 +346,16 @@
       }
     },
     "FooterEnabled": true,
-    "FooterLinkName": "GitPageDocs Example",
+    "FooterLinkName": "GitPageDocs documentation",
     "FooterLinkUrl": "https://github.com/Vidigal-code/git-page-docs-example",
     "FooterDateMode": "browser",
     "FooterDateCustom": "",
     "ProjectLink": "https://github.com/Vidigal-code/git-page-docs-example",
     "SiteIconPath": "/icon.svg",
-    "SiteHeaderName": "GitPageDocs Example",
-    "RouteguideBrandPositionDefault": "center",
+    "SiteHeaderName": "GitPageDocs",
+    "RouteguideBrandPositionDefault": "left",
     "RouteguideBrandContainerTopDefault": false,
-    "audioPlayerEnabled": true,
+    "audioPlayerEnabled": false,
     "audioAutoPlayOnLoad": false,
     "audioLoopEnabled": false,
     "audioSequentialPlayback": false,
@@ -363,31 +363,12 @@
     "audioPopoverShowMinutes": true,
     "mediaExclusivePlayback": true,
     "AiChatAutoLockSeconds": 30,
-    "audioTracks": [
-      {
-        "url": "https://www.youtube.com/watch?v=xAR6N9N8e6U",
-        "type": "youtube",
-        "title": {
-          "pt": "Youtube",
-          "en": "Youtube",
-          "es": "Youtube"
-        }
-      },
-      {
-        "url": "https://open.spotify.com/track/4iV5W9uYEdYUVa79Axb7Rh",
-        "type": "spotify",
-        "title": {
-          "pt": "Spotify",
-          "en": "Spotify",
-          "es": "Spotify"
-        }
-      }
-    ],
+    "audioTracks": [],
     "TocScrollMaxHeightDesktop": "min(65vh, 400px)",
     "TocScrollMaxHeightMobile": "min(45vh, 280px)",
     "layoutsConfigPathOficial": true,
-    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.17/gitpagelayouts/templates",
-    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.17/gitpagelayouts/layoutsConfig.json",
+    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.21/gitpagelayouts/templates",
+    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.21/gitpagelayouts/layoutsConfig.json",
     "layoutsConfigPath": "",
     "layoutsConfigPathTemplates": "",
     "repositorySearchHome": true,
@@ -400,6 +381,24 @@
   },
   "VersionControl": {
     "versions": [
+      {
+        "id": "0.0.21",
+        "path": "gitpagedocs/docs/versions/0.0.21/config.json",
+        "ProjectLink": "https://github.com/Vidigal-code/git-page-docs-example",
+        "PathConfig": "gitpagedocs/docs/versions/0.0.21/config.json",
+        "PreviewProject": "",
+        "UpdateDate": "2026-11-08",
+        "branch": [
+          {
+            "name": "main",
+            "url": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+          }
+        ],
+        "release": [],
+        "commit": [],
+        "source-viewer": true,
+        "source-viewer-path": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+      },
       {
         "id": "0.0.17",
         "path": "gitpagedocs/docs/versions/0.0.17/config.json",
