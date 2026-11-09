@@ -8,11 +8,11 @@ Detailed documentation and working configuration examples for **GitPageDocs**: t
 
 | Language | Start | Configuration | Document guide | Narrow and foldable screens |
 | --- | --- | --- | --- | --- |
-| English | [Getting started](gitpagedocs/docs/versions/0.0.21/en/getting-started.md) | [Reference](gitpagedocs/docs/versions/0.0.21/en/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.21/en/route-guide.md) | [Responsive reading](gitpagedocs/docs/versions/0.0.21/en/responsive-layout.md) |
-| Português | [Primeiros passos](gitpagedocs/docs/versions/0.0.21/pt/getting-started.md) | [Referência](gitpagedocs/docs/versions/0.0.21/pt/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.21/pt/route-guide.md) | [Leitura responsiva](gitpagedocs/docs/versions/0.0.21/pt/responsive-layout.md) |
-| Español | [Primeros pasos](gitpagedocs/docs/versions/0.0.21/es/getting-started.md) | [Referencia](gitpagedocs/docs/versions/0.0.21/es/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.21/es/route-guide.md) | [Lectura adaptable](gitpagedocs/docs/versions/0.0.21/es/responsive-layout.md) |
+| English | [Getting started](gitpagedocs/docs/versions/0.0.24/en/getting-started.md) | [Reference](gitpagedocs/docs/versions/0.0.24/en/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.24/en/route-guide.md) | [Responsive reading](gitpagedocs/docs/versions/0.0.24/en/responsive-layout.md) |
+| Português | [Primeiros passos](gitpagedocs/docs/versions/0.0.24/pt/getting-started.md) | [Referência](gitpagedocs/docs/versions/0.0.24/pt/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.24/pt/route-guide.md) | [Leitura responsiva](gitpagedocs/docs/versions/0.0.24/pt/responsive-layout.md) |
+| Español | [Primeros pasos](gitpagedocs/docs/versions/0.0.24/es/getting-started.md) | [Referencia](gitpagedocs/docs/versions/0.0.24/es/configuration.md) | [RouteGuideTags](gitpagedocs/docs/versions/0.0.24/es/route-guide.md) | [Lectura adaptable](gitpagedocs/docs/versions/0.0.24/es/responsive-layout.md) |
 
-The active documentation version is **0.0.21**. The selector also preserves **0.0.17** and **0.0.8** as historical snapshots, including their original file paths. The new version is focused entirely on GitPageDocs; historical snapshots retain the examples originally published with them.
+The active documentation version is **0.0.24**. The selector also preserves **0.0.21**, **0.0.17** and **0.0.8** as historical snapshots, including their original file paths. The new version is focused entirely on GitPageDocs; historical snapshots retain the examples originally published with them.
 
 ## Documentation map
 
@@ -25,6 +25,8 @@ The active version has 37 Markdown documents per language, a translated HTML con
 - **Publish and maintain:** deployment, migration, troubleshooting and frequently asked questions.
 - **Develop GitPageDocs:** package architecture, source-of-truth files, contribution and validation.
 - **Git and GitHub:** reviewing documentation changes, reporting reproducible defects and planning work against observable outcomes.
+
+The 0.0.24 edition covers fixed theme families with independent light/dark modes, the GitHub-style source viewer with folders and breadcrumbs, lightweight background effects, and the desktop document guide that follows its content height and marks the active entry.
 
 The combined example uses the actual installation and configuration documents plus the HTML configuration map. The paginated example uses a three-document learning path. The active catalog includes no unrelated video, music or game content.
 
@@ -41,11 +43,12 @@ gitpagedocs/
     pt.json
     es.json
   docs/versions/
-    0.0.21/
+    0.0.24/
       config.json
       en/
       pt/
       es/
+    0.0.21/
     0.0.17/
     0.0.8/
 ```
@@ -54,7 +57,7 @@ gitpagedocs/
 
 ## Configure the document guide
 
-Version 0.0.21 uses an explicit selection on every Markdown route:
+Version 0.0.24 uses an explicit selection on every Markdown route:
 
 ```json
 {

@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitPageDocs configuration map</title>
+<style>html { color-scheme: light dark; } * { box-sizing: border-box; } body { margin: 0; padding: clamp(1rem, 4vw, 2.5rem); font: 1rem/1.6 system-ui, sans-serif; color: light-dark(#18212d, #eef3f8); background: light-dark(#f7fafc, #101923); overflow-wrap: anywhere; } main { max-width: 72rem; margin-inline: auto; } h1 { font-size: clamp(1.4rem, 4vw, 2.2rem); line-height: 1.2; } h2 { margin-block: 0 .5rem; font-size: 1.1rem; } ol { padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 1rem; } li { border: 1px solid light-dark(#bac7d5, #536476); border-radius: .75rem; padding: 1rem; } code { font: .9em/1.5 ui-monospace, monospace; } footer { margin-block-start: 1.5rem; }</style>
+</head>
+<body>
+<main><h1>One repository, three configuration layers</h1><p>The viewer combines versioned documents with shared site settings.</p><ol><li><h2>Site</h2><code>gitpagedocs/config.json</code><p>Languages, themes, reading controls and available versions.</p></li><li><h2>Version</h2><code>docs/versions/0.0.24/config.json</code><p>Routes, menus and the relationship between page IDs and files.</p></li><li><h2>Content</h2><code>docs/versions/0.0.24/en/</code><p>Markdown and optional assets translated for each enabled language.</p></li><li><h2>Viewer</h2><code>GitPageDocs</code><p>Reads the selected version and language, then renders the route.</p></li></ol><footer><p>Keep every route path and menu destination consistent with the tracked files.</p></footer></main>
+</body>
+</html>

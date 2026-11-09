@@ -367,8 +367,8 @@
     "TocScrollMaxHeightDesktop": "min(65vh, 400px)",
     "TocScrollMaxHeightMobile": "min(45vh, 280px)",
     "layoutsConfigPathOficial": true,
-    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.21/gitpagelayouts/templates",
-    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.21/gitpagelayouts/layoutsConfig.json",
+    "layoutsConfigPathTemplatesOficial": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.24/gitpagelayouts/templates",
+    "layoutsConfigPathOficialUrl": "https://github.com/Vidigal-code/git-page-docs/blob/v0.0.24/gitpagelayouts/layoutsConfig.json",
     "layoutsConfigPath": "",
     "layoutsConfigPathTemplates": "",
     "repositorySearchHome": true,
@@ -381,6 +381,24 @@
   },
   "VersionControl": {
     "versions": [
+      {
+        "id": "0.0.24",
+        "path": "gitpagedocs/docs/versions/0.0.24/config.json",
+        "ProjectLink": "https://github.com/Vidigal-code/git-page-docs-example",
+        "PathConfig": "gitpagedocs/docs/versions/0.0.24/config.json",
+        "PreviewProject": "",
+        "UpdateDate": "2026-11-09",
+        "branch": [
+          {
+            "name": "main",
+            "url": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+          }
+        ],
+        "release": [],
+        "commit": [],
+        "source-viewer": true,
+        "source-viewer-path": "https://github.com/Vidigal-code/git-page-docs-example/tree/main"
+      },
       {
         "id": "0.0.21",
         "path": "gitpagedocs/docs/versions/0.0.21/config.json",
