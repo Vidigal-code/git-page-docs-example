@@ -88,4 +88,4 @@ The official viewer can load this public repository after its documentation chan
 
 Site identity and version metadata point to this documentation repository. The Source code container deliberately points to the official GitPageDocs implementation so that the architecture references can be followed in the product's code.
 
-The viewer integration targets GitPageDocs **0.0.25** while this documentation edition retains its **0.0.24** identifier and paths. On screens wider than 1024 CSS pixels, the side guide uses the available viewport height before scrolling, taking precedence over TocScrollMaxHeightDesktop. Centered guides above the content and layouts at 1024 pixels and below retain their previous sizing rules.
+The viewer integration targets GitPageDocs **0.0.26** while this documentation edition retains its **0.0.24** identifier and paths. On screens wider than 1024 CSS pixels, the side guide uses the available viewport height before scrolling, taking precedence over TocScrollMaxHeightDesktop. Centered guides above the content and layouts at 1024 pixels and below retain their previous sizing rules.

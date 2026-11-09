@@ -4,13 +4,13 @@ O GitPageDocs oferece compatibilidade com configurações e dados desde a versã
 
 ## Salve um ponto de recuperação
 
-Anote o commit publicado, a versão da CLI e a revisão do workflow. Execute `git status --short`, revise alterações pendentes e salve os arquivos de origem desejados em um commit específico. Guarde também uma cópia dos documentos e recursos personalizados ainda não rastreados; não adicione credenciais apenas para completar o backup. Crie uma branch com `git switch -c docs/upgrade-0.0.25`.
+Anote o commit publicado, a versão da CLI e a revisão do workflow. Execute `git status --short`, revise alterações pendentes e salve os arquivos de origem desejados em um commit específico. Guarde também uma cópia dos documentos e recursos personalizados ainda não rastreados; não adicione credenciais apenas para completar o backup. Crie uma branch com `git switch -c docs/upgrade-0.0.26`.
 
 Para uma comparação reproduzível, invoque explicitamente o pacote desejado:
 
 ```sh
-npx --yes @gitpagedocs/cli@0.0.25 version
-npx --yes @gitpagedocs/cli@0.0.25 --no-interactive --owner SEU_USUARIO --repo SEU_REPOSITORIO --output gitpagedocs-candidate
+npx --yes @gitpagedocs/cli@0.0.26 version
+npx --yes @gitpagedocs/cli@0.0.26 --no-interactive --owner SEU_USUARIO --repo SEU_REPOSITORIO --output gitpagedocs-candidate
 git diff --no-index -- gitpagedocs gitpagedocs-candidate
 ```
 

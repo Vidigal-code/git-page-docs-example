@@ -6,7 +6,7 @@ Este guia monta um site pequeno em três idiomas, com duas páginas Markdown e m
 
 Este site seleciona primeiro a 0.0.24 e preserva 0.0.21, 0.0.17 e 0.0.8 como documentação histórica. Um scaffold novo da CLI pode incluir outras versões. Confira `VersionControl.versions` na configuração raiz para identificar as versões realmente disponíveis no seu site; preservar uma pasta não a inclui automaticamente no seletor.
 
-Execute `npx --yes @gitpagedocs/cli@0.0.25 --no-interactive --owner SEU_USUARIO --repo SEU_REPOSITORIO` em um diretório de projeto novo. Neste repositório de código-fonte, `node cli/index.mjs` executa a versão do checkout. A geração grava configuração e documentação; ela não inicia o visualizador Next.js.
+Execute `npx --yes @gitpagedocs/cli@0.0.26 --no-interactive --owner SEU_USUARIO --repo SEU_REPOSITORIO` em um diretório de projeto novo. Neste repositório de código-fonte, `node cli/index.mjs` executa a versão do checkout. A geração grava configuração e documentação; ela não inicia o visualizador Next.js.
 
 O JSON completo abaixo é um exemplo mínimo de `gitpagedocs/config.json`. Em um site existente, mescle os campos relevantes e preserve a identidade do repositório, opções de publicação, temas e demais versões.
 

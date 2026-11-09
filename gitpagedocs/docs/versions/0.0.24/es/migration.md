@@ -4,13 +4,13 @@ GitPageDocs mantiene compatibilidad con configuraciones y datos desde la versió
 
 ## Guarda un punto de recuperación
 
-Anota el commit publicado, la versión de la CLI y la revisión del workflow. Ejecuta `git status --short`, revisa los cambios pendientes y guarda los archivos de origen deseados en un commit específico. Conserva otra copia de los documentos y recursos personalizados todavía sin seguimiento; no añadas credenciales para completar la copia. Crea una rama con `git switch -c docs/upgrade-0.0.25`.
+Anota el commit publicado, la versión de la CLI y la revisión del workflow. Ejecuta `git status --short`, revisa los cambios pendientes y guarda los archivos de origen deseados en un commit específico. Conserva otra copia de los documentos y recursos personalizados todavía sin seguimiento; no añadas credenciales para completar la copia. Crea una rama con `git switch -c docs/upgrade-0.0.26`.
 
 Para comparar de forma reproducible, indica el paquete exacto:
 
 ```sh
-npx --yes @gitpagedocs/cli@0.0.25 version
-npx --yes @gitpagedocs/cli@0.0.25 --no-interactive --owner TU_USUARIO --repo TU_REPOSITORIO --output gitpagedocs-candidate
+npx --yes @gitpagedocs/cli@0.0.26 version
+npx --yes @gitpagedocs/cli@0.0.26 --no-interactive --owner TU_USUARIO --repo TU_REPOSITORIO --output gitpagedocs-candidate
 git diff --no-index -- gitpagedocs gitpagedocs-candidate
 ```
 

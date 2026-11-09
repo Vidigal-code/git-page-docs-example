@@ -45,4 +45,4 @@ Markdown and JSON use their parser/renderer validation. There is no TypeScript a
 
 The official content sources are `cli/content/` in the [GitPageDocs source repository](https://github.com/Vidigal-code/git-page-docs/tree/main/cli/content), with route defaults and metadata under `cli/builders/` and `cli/data/`. Update factual references from those sources, then preserve this site's focused examples, repository identity, translations and historical paths.
 
-The official theme catalog is pinned to `v0.0.25`. A new pin should correspond to the GitPageDocs release used by the viewer. Do not confuse that product tag with a release of this documentation repository. The Source code container points to the product implementation; site/version repository links identify this documentation repository.
+The official theme catalog is pinned to `v0.0.26`. A new pin should correspond to the GitPageDocs release used by the viewer. Do not confuse that product tag with a release of this documentation repository. The Source code container points to the product implementation; site/version repository links identify this documentation repository.
