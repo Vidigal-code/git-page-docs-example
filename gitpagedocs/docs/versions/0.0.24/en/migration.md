@@ -4,13 +4,13 @@ GitPageDocs supports configurations and data from the official 0.0.1 release onw
 
 ## Save a recoverable starting point
 
-Record the deployed commit, CLI version and workflow revision. Run `git status --short`, review pending changes and save the intended source files in a dedicated commit. Keep a separate backup of untracked documentation and custom assets; never add credentials merely to complete the backup. Create a working branch with `git switch -c docs/upgrade-0.0.24`.
+Record the deployed commit, CLI version and workflow revision. Run `git status --short`, review pending changes and save the intended source files in a dedicated commit. Keep a separate backup of untracked documentation and custom assets; never add credentials merely to complete the backup. Create a working branch with `git switch -c docs/upgrade-0.0.25`.
 
 For a reproducible comparison, invoke the target package explicitly:
 
 ```sh
-npx --yes @gitpagedocs/cli@0.0.24 version
-npx --yes @gitpagedocs/cli@0.0.24 --no-interactive --owner YOUR_USER --repo YOUR_REPOSITORY --output gitpagedocs-candidate
+npx --yes @gitpagedocs/cli@0.0.25 version
+npx --yes @gitpagedocs/cli@0.0.25 --no-interactive --owner YOUR_USER --repo YOUR_REPOSITORY --output gitpagedocs-candidate
 git diff --no-index -- gitpagedocs gitpagedocs-candidate
 ```
 
